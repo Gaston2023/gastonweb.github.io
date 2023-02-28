@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+div{
+    display: block;
+}
+
+/* Colocamos todos los elementos de HTML en disposicion de bloque */
+header, form, section, footer, aside, nav, article, figure, figcaption, hgroup{ 
+    display: block; 
+   }
+
+/* tipografia de bootstrap */
+h1{
+    text-align: center;
+    color: aqua;
+    margin-top: 5px;
+}
+h2{ font-size: 3rem;
+    text-align: left;
+    vertical-align: middle;
+    color: orange;
+}
+h3{
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(128, 128, 128);
+}
+
+section .span{
+    text-align: left;
+}
+
+img{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    
+    border-radius: 7%;
+    image-orientation:var(-ms-flexbox);
+}
+
+
+section{
+    margin: auto;
+    padding-top: 50px;
+    text-align: left;
+    align-items:center;
+    
+}
+nav{
+    color: white;
+}
+
+/* Background extraido de: uigradients.com*/
+body{ color: white;
+    box-sizing: content-box;
+background: #0f0c29;
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+
+}
+
+.container{
+    width: 100%;
+    max-width: 960px;
+    padding: 1em;
+    
+    border-radius: 6px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+}
+
+#portfolio{
+    margin-top: 50px;
+}
+
+#sobreMi{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border: #230dee solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#articulos{
+    text-align: center;
+    
+}
+
+/* form{
+    margin: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+} */
+
+.botones{
+    width: 40%;
+    max-width: 736px;
+    padding: 1em;
+    
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0 auto 16px auto;
+    
+}
+
+footer{
+    width: 100%;
+    background-color: #0d0d24;
+    text-align: center;
+    font-size: 12px;
+}
