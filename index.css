@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 div{
     display: block;
@@ -8,7 +10,11 @@ div{
 /* Colocamos todos los elementos de HTML en disposicion de bloque */
 header, form, section, footer, aside, nav, article, figure, figcaption, hgroup{ 
     display: block; 
-   }
+}
+
+nav{
+    color: white;
+}
 
 /* tipografia de bootstrap */
 h1{
@@ -16,7 +22,7 @@ h1{
     color: aqua;
     margin-top: 5px;
 }
-h2{ font-size: 3rem;
+h2{ font-size: 2rem;
     text-align: left;
     vertical-align: middle;
     color: orange;
@@ -35,9 +41,8 @@ img{
     margin-top: 15px;
     margin-bottom: 15px;
     margin-right: 10px;
-    
     border-radius: 7%;
-    image-orientation:var(-ms-flexbox);
+    
 }
 
 
@@ -47,9 +52,6 @@ section{
     text-align: left;
     align-items:center;
     
-}
-nav{
-    color: white;
 }
 
 /* Background extraido de: uigradients.com*/
@@ -61,6 +63,12 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
 
 }
 
+center{
+    margin: auto;
+    padding-top: 50px;
+    align-items:center;
+    
+}
 .container{
     width: 100%;
     max-width: 960px;
@@ -77,6 +85,11 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
     margin-top: 50px;
 }
 
+#habilidades{
+    margin-top: 50px;
+}
+
+
 #sobreMi{
     margin-top: 100px;
     margin-bottom: 50px;
@@ -90,27 +103,18 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
     
 }
 
-/* form{
-    margin: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-} */
-
 .botones{
     width: 40%;
-    max-width: 736px;
+    max-width: 700px;
     padding: 1em;
-    
     border-radius: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    margin: 0 auto 16px auto;
+    margin: 10px auto 10px auto;
     
+}
+button{
+    margin-bottom: 10px;
 }
 
 footer{
