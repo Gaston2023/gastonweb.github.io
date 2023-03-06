@@ -1,4 +1,5 @@
 // La barra de Navegacion esta hecha con Bootstrap como dijo el profe Daniel Rinaldi que podiamos usar ese Framework
+// Un libro que me ayudo bastante fue: El gran libro de HTML5, CSS3 y Javascript de Juan Diego Gauchat
 
 // Enfocar campos
 
@@ -15,6 +16,15 @@ function bigImg(x) {
 function normalImg(x) {
     x.style.height = "200px";
     x.style.width = "100%";
+}
+
+function bigImg2(x) {
+    x.style.height = "240px";
+    x.style.width = "200px";
+}
+function normalImg2(x) {
+    x.style.height = "200px";
+    x.style.width = "fit-content";
 }
 
 // Mostrar y ocultar seccion: Sobre Mi
@@ -58,4 +68,3 @@ function validarFormulario(){
         return false;
     }
 }
-
